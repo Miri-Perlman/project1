@@ -25,6 +25,7 @@ const Child= (props) =>{
         <br />
         <Fab id="add" onClick={() => props.addChildFunc({ Name: Name, Age: Age ,City:City,IsAdult: IsAdult})}  size="medium" color="primary" aria-label="add">
         <AddIcon />
+        <h1>hiiiiiiiiigit add .</h1>
       </Fab>
       </Box>   
       
